@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatServer", "ChatServer\ChatServer.csproj", "{BA4BE017-5622-46AF-8ABB-AA31ED946A76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPServer", "TCPServer\TCPServer.csproj", "{6CBD0647-AED4-45D8-B4D3-61955A4695B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPClient", "TCPClient\TCPClient.csproj", "{04C35648-BBFD-435A-BBEF-10066C1EAD27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPClientLibrary", "TCPClientLibrary\TCPClientLibrary.csproj", "{AD53B8E9-FC9D-43EE-B563-18C174FE421F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPServer_v2", "TCPServer_v2\TCPServer_v2.csproj", "{768B628D-8FB9-4BB3-A279-ACE271668587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptedKeyGenerator", "EncryptedKeyGenerator\EncryptedKeyGenerator.csproj", "{614C2912-E0C3-40F7-BADF-94C0080B6219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA4BE017-5622-46AF-8ABB-AA31ED946A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4BE017-5622-46AF-8ABB-AA31ED946A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4BE017-5622-46AF-8ABB-AA31ED946A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4BE017-5622-46AF-8ABB-AA31ED946A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBD0647-AED4-45D8-B4D3-61955A4695B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBD0647-AED4-45D8-B4D3-61955A4695B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBD0647-AED4-45D8-B4D3-61955A4695B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBD0647-AED4-45D8-B4D3-61955A4695B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C35648-BBFD-435A-BBEF-10066C1EAD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C35648-BBFD-435A-BBEF-10066C1EAD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C35648-BBFD-435A-BBEF-10066C1EAD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C35648-BBFD-435A-BBEF-10066C1EAD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD53B8E9-FC9D-43EE-B563-18C174FE421F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD53B8E9-FC9D-43EE-B563-18C174FE421F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD53B8E9-FC9D-43EE-B563-18C174FE421F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD53B8E9-FC9D-43EE-B563-18C174FE421F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768B628D-8FB9-4BB3-A279-ACE271668587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768B628D-8FB9-4BB3-A279-ACE271668587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768B628D-8FB9-4BB3-A279-ACE271668587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768B628D-8FB9-4BB3-A279-ACE271668587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614C2912-E0C3-40F7-BADF-94C0080B6219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614C2912-E0C3-40F7-BADF-94C0080B6219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614C2912-E0C3-40F7-BADF-94C0080B6219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614C2912-E0C3-40F7-BADF-94C0080B6219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEBCC869-90DB-48B1-80A0-84ECAC4A2DFF}
+	EndGlobalSection
+EndGlobal
